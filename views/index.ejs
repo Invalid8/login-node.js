@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>cBuddy App</title>
+		<meta name="description" content="chat" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<h1>cBuddy App</h1>
+				<div class="links">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li>
+							<form action="/logout" method="POST">
+								<button type="submit" class="logout">
+									Log Out
+								</button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="welcome-message">
+				<h1>Welcome <%=name %></h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Nulla quaerat rerum reprehenderit laudantium exercitationem
+					ut amet enim incidunt
+				</p>
+			</section>
+
+			<section class="subApp">
+				<h2>Fun Apps</h2>
+				<div class="app-list">
+					<div class="app-preview">
+						<a href="/Chat" class="flex">
+							<div class="info">
+								<h3>Chat Buddy</h3>
+								<p>Creator: Daniel Fadamitan</p>
+								<div>
+									{blog.body.substring(0, 90)} . . .
+									<b>Play</b>
+								</div>
+							</div>
+							<div class="imgC">
+								<img src="images/user-icon.png" alt="" />
+							</div>
+						</a>
+					</div>
+					<div class="app-preview">
+						<a href="/tic-tac-toe" class="flex">
+							<div class="info">
+								<h3>Tic Tac Toe</h3>
+								<p>Creator: Daniel Fadamitan</p>
+								<div>
+									{blog.body.substring(0, 90)} . . .
+									<b>Play</b>
+								</div>
+							</div>
+							<div class="imgC">
+								<img src="images/user-icon.png" alt="" />
+							</div>
+						</a>
+					</div>
+					<div class="app-preview">
+						<a href="/random-color-gen" class="flex">
+							<div class="info">
+								<h3>Random Color</h3>
+								<p>Creator: Daniel Fadamitan</p>
+								<div>
+									{blog.body.substring(0, 90)} . . .
+									<b>Play</b>
+								</div>
+							</div>
+							<div class="imgC">
+								<img src="images/user-icon.png" alt="" />
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="" async defer></script>
+	</body>
+</html>

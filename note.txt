@@ -1,0 +1,8 @@
+npm i express ejs
+npm i --save-dev nodemon dotenv
+
+npm install -g nodemon
+
+npm i bcrypjs
+
+npm i passport passport-local express-flash express-session

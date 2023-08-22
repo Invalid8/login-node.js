@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Chat App</title>
+		<!-- <link rel="stylesheet" href="css/chat-style.css" /> -->
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/chat.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<h1>cBuddy App</h1>
+				<div class="links">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li>
+							<form action="/logout" method="POST">
+								<button type="submit" class="logout">
+									Log Out
+								</button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="chat-container u-flex f-col space-bet">
+				<div class="chat-box">
+					<div class="msg-box">
+						<div id="messages" class="scroller"></div>
+					</div>
+				</div>
+				<form id="cForm">
+					<div class="input-box">
+						<textarea
+							id="inputMsg"
+							type="text"
+							class="msg-i"
+							placeholder="Your message..."
+							cols="1"
+						></textarea>
+						<button type="submit" class="submit-msg">Send</button>
+					</div>
+					<input
+						type="hidden"
+						class="hidden"
+						data-info='{"username": "<%= username %>", "id":  "<%= id %>"}'
+					/>
+				</form>
+			</div>
+		</main>
+		<script src="javascript/chat.js"></script>
+	</body>
+</html>

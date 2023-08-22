@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Chat Board</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/chatApp.css" />
+	</head>
+	<body>
+		<main class="u-flex">
+			<section class="section1 u-flex f-col showBuddies" id="section1">
+				<article class="MoreNdSearch u-flex space-bet ali-items-cent">
+					<div class="div1">
+						<button class="profileBtn">
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+					<div class="div2 input-box">
+						<input
+							type="search"
+							name="searchThrough"
+							id="searchThrough"
+							placeholder="Search"
+						/>
+					</div>
+				</article>
+				<div
+					class="searchChatBuddies sideModal u-flex f-col over-scroll hideSideModal"
+					id="searchContainer"
+				>
+					<div
+						class="chatPreviewModal u-flex ali-items-cent make-btn"
+						id="1679599786100"
+					>
+						<div class="div1 prev-img-box">
+							<img src="images/user-icon.png" alt="..." />
+						</div>
+						<div class="div2">
+							<div
+								class="header spread u-flex space-bet ali-items-cent"
+							>
+								<h4 class="username">viva23</h4>
+								<div class="time">7:31PM</div>
+							</div>
+							<div class="presentMsg">
+								<p>it seems he is not o. . .</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="chatPreviewModal u-flex ali-items-cent make-btn"
+						id="1679599786100"
+					>
+						<div class="div1 prev-img-box">
+							<img src="images/user-icon.png" alt="..." />
+						</div>
+						<div class="div2">
+							<div
+								class="header spread u-flex space-bet ali-items-cent"
+							>
+								<h4 class="username">viva23</h4>
+								<div class="time">7:31PM</div>
+							</div>
+							<div class="presentMsg">
+								<p>it seems he is not o. . .</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="archivedChatBuddies sideModal u-flex f-col over-scroll hideSideModal"
+					id="archivedContainer"
+				>
+					<div class="title u-flex space-bet ali-items-cent">
+						<button class="back showArchivedBuddiesBtn" id="back">
+							<i class="fa fa-arrow-left"></i>
+						</button>
+						<h2 class="thin-w400">Archived Chat</h2>
+					</div>
+					<div
+						class="chatPreviewModal u-flex ali-items-cent make-btn"
+						id="1679599786100"
+					>
+						<div class="div1 prev-img-box">
+							<img src="images/user-icon.png" alt="..." />
+						</div>
+						<div class="div2">
+							<div
+								class="header spread u-flex space-bet ali-items-cent"
+							>
+								<h4 class="username">viva23</h4>
+								<div class="time">7:31PM</div>
+							</div>
+							<div class="presentMsg">
+								<p>it seems he is not o. . .</p>
+							</div>
+						</div>
+					</div>
+					<div
+						class="chatPreviewModal u-flex ali-items-cent make-btn"
+						id="1679599786100"
+					>
+						<div class="div1 prev-img-box">
+							<img src="images/user-icon.png" alt="..." />
+						</div>
+						<div class="div2">
+							<div
+								class="header spread u-flex space-bet ali-items-cent"
+							>
+								<h4 class="username">viva23</h4>
+								<div class="time">7:31PM</div>
+							</div>
+							<div class="presentMsg">
+								<p>it seems he is not o. . .</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<article
+					class="chatBuddiesNdOthers u-flex f-col over-scroll"
+					id="buddiesContainer"
+				>
+					<div
+						class="archivedChatBtn u-flex ali-items-cent make-btn"
+						id="archivedChatBtn"
+					>
+						<div class="div1 prev-img-box">
+							<svg
+								fill="#FFC200"
+								height="200px"
+								width="200px"
+								version="1.1"
+								id="Layer_1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								viewBox="0 0 512.011 512.011"
+								xml:space="preserve"
+								stroke="#FFC200"
+							>
+								<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+								<g
+									id="SVGRepo_tracerCarrier"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								></g>
+								<g id="SVGRepo_iconCarrier">
+									<g>
+										<g>
+											<g>
+												<path
+													d="M447.925,0.005H64.075c-35.382,0-64.064,28.692-64.064,64.085v191.703C0.01,255.865,0,255.934,0,256.005 c0,0.071,0.01,0.14,0.011,0.211V447.92c0,35.393,28.682,64.085,64.064,64.085h383.851c35.398,0,64.085-28.687,64.085-64.085 V64.091C512.011,28.693,483.323,0.005,447.925,0.005z M64.075,42.672h383.851c11.834,0,21.419,9.585,21.419,21.419v170.581 H42.677V64.091C42.677,52.258,52.26,42.672,64.075,42.672z M447.925,469.339H64.075c-11.814,0-21.397-9.586-21.397-21.419 V277.339h426.667V447.92C469.344,459.754,459.759,469.339,447.925,469.339z"
+												></path>
+												<path
+													d="M320,320.005c-11.782,0-21.333,9.551-21.333,21.333c0,11.791-9.542,21.333-21.333,21.333h-42.667 c-11.791,0-21.333-9.542-21.333-21.333c0-11.782-9.551-21.333-21.333-21.333s-21.333,9.551-21.333,21.333 c0,35.355,28.645,64,64,64h42.667c35.355,0,64-28.645,64-64C341.333,329.557,331.782,320.005,320,320.005z"
+												></path>
+												<path
+													d="M234.667,170.672h42.667c35.355,0,64-28.645,64-64c0-11.782-9.551-21.333-21.333-21.333s-21.333,9.551-21.333,21.333 c0,11.791-9.542,21.333-21.333,21.333h-42.667c-11.791,0-21.333-9.542-21.333-21.333c0-11.782-9.551-21.333-21.333-21.333 s-21.333,9.551-21.333,21.333C170.667,142.027,199.311,170.672,234.667,170.672z"
+												></path>
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg>
+						</div>
+						<div class="div2">
+							<div class="header">
+								<h4 class="title">Archived chats</h4>
+							</div>
+							<div class="archivedUsers">
+								<span>user1</span>
+								<span>user2</span>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
+			<section class="section2 u-flex f-col space-bet" id="section2">
+				<article class="msgSettings u-flex space-bet">
+					<div class="u-flex ali-items-cent">
+						<button class="showChatBuddiesBtn" id="showBuddiesBtn">
+							<i class="fa fa-arrow-left"></i>
+						</button>
+						<div
+							class="checkBuddyProfileBtn u-flex ali-items-cent make-btn"
+							id="buddyProfile"
+						></div>
+					</div>
+					<div class="settings u-flex ali-items-cent">
+						<button class="searchInChatBtn">
+							<i class="fa fa-search"></i>
+						</button>
+						<button class="callBuddyBtn">
+							<i class="fa fa-phone"></i>
+						</button>
+						<button class="moreSettingsBtn">
+							<i class="fa fa-gears"></i>
+						</button>
+					</div>
+				</article>
+				<article
+					class="msgContainer over-scroll scroller"
+					id="chatMessages"
+				></article>
+				<article class="userInputs">
+					<button
+						class="scrollDown prev-img-box hidden"
+						id="scrollDown"
+					>
+						<i class="fa fa-arrow-down"></i>
+					</button>
+					<form id="cForm" class="u-flex space-bet ali-items-cent">
+						<button class="attachBtn">
+							<i class="fa fa-paperclip"></i>
+						</button>
+						<div class="input-box u-flex space-bet ali-items-cent">
+							<input
+								type="text"
+								name="userInput"
+								placeholder="Write a message"
+								id="inputMsg"
+							/>
+							<button type="submit" class="sendMsg">
+								<i class="fa fa-paper-plane"></i>
+							</button>
+						</div>
+						<input
+							type="hidden"
+							class="hidden"
+							id="house"
+							data-info='{"id":  "<%= id %>", "username": "<%= username %>", "email":  "<%= email %>"}'
+						/>
+
+						<div class="div1 u-flex ali-items-cent">
+							<button class="emojiBtn">
+								<i class="fa fa-smile"></i>
+							</button>
+							<button class="soundRecorderBtn">
+								<i class="fa fa-microphone"></i>
+							</button>
+						</div>
+					</form>
+				</article>
+			</section>
+		</main>
+		<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+		<script>
+			var socket = io();
+		</script>
+		<script src="javascript/app.js"></script>
+	</body>
+</html>

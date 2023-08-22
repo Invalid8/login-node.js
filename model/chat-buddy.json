@@ -1,0 +1,726 @@
+[
+  {
+    "id": 1679599786100,
+    "username": "viva23",
+    "email": "f.danieltolulope2021@gmail.com",
+    "profilePic": "images/user-icon.png",
+    "accountType": "single",
+    "active": {
+      "isTrue": true,
+      "lastActive": "Thu, 23 Mar 2023 03:43:59 GMT"
+    },
+    "blocks": [],
+    "archive": [],
+    "buddies": [
+      {
+        "id": 1678954736886,
+        "notification": true,
+        "blocked": false,
+        "messages": [
+          {
+            "id": "1679672025877",
+            "msg": "hi",
+            "time": "4:33PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672040446",
+            "msg": "didn't get you",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679672048694",
+            "msg": "hmmmm",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672059734",
+            "msg": "refresh",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679672064456",
+            "msg": "y",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672345794",
+            "msg": "and what is going on",
+            "time": "4:39PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672397857",
+            "msg": "it is wied of you o cha me up now ",
+            "time": "4:39PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672505362",
+            "msg": "i can't find my chats",
+            "time": "4:41PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679672646111",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "4:44PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672685228",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "4:44PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679672759935",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "4:45PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679673206491",
+            "msg": "i guess it is slowing down",
+            "time": "4:53PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679673220321",
+            "msg": "although",
+            "time": "4:51PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679673759497",
+            "msg": "what fool",
+            "time": "5:02PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679674441497",
+            "msg": "good",
+            "time": "5:13PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679676395548",
+            "msg": "i hope it works now",
+            "time": "5:46PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679677158338",
+            "msg": "hmmm",
+            "time": "5:59PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677259543",
+            "msg": "i seems you have no inpact",
+            "time": "6:00PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677273597",
+            "msg": "but mine is perfect",
+            "time": "6:01PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677678071",
+            "msg": "hey, no replies ni",
+            "time": "6:03PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677715597",
+            "msg": "kick",
+            "time": "6:08PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679678357629",
+            "msg": "Hi",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679678374846",
+            "msg": "hmmm",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679678384778",
+            "msg": "i an send messages now",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679678472458",
+            "msg": "Fectching is hard",
+            "time": "6:21PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679680195738",
+            "msg": "wetin now",
+            "time": "6:49PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679680307600",
+            "msg": "how do i sove errors",
+            "time": "6:51PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679680319790",
+            "msg": "did it take longer",
+            "time": "6:51PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679681834039",
+            "msg": "hi",
+            "time": "7:17PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679681930049",
+            "msg": "i am in controllllll",
+            "time": "7:18PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679681936089",
+            "msg": "hahahahahaahahaha",
+            "time": "7:18PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679682698764",
+            "msg": "it seems he is not online",
+            "time": "7:31PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679689853811",
+            "msg": "ruber duck",
+            "time": "9:30PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679690091330",
+            "msg": "what fool",
+            "time": "9:34PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679702397019",
+            "msg": "good",
+            "time": "0:59AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679769741891",
+            "msg": "Enimines",
+            "time": "7:42PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679773093451",
+            "msg": "hi",
+            "time": "8:37PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679773102448",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "8:37PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1680256058267",
+            "msg": "good",
+            "time": "10:47AM",
+            "sender": {
+              "id": 1679599786100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1678954736886,
+    "username": "daniel",
+    "email": "b.fadamitan2019@gmail.com",
+    "profilePic": "images/user-icon.png",
+    "accountType": "single",
+    "active": {
+      "isTrue": true,
+      "lastActive": "Thu, 23 Mar 2023 03:43:59 GMT"
+    },
+    "blocks": [],
+    "archive": [],
+    "buddies": [
+      {
+        "id": 1679599786100,
+        "notification": true,
+        "blocked": false,
+        "messages": [
+          {
+            "id": "1679672025877",
+            "msg": "hi",
+            "time": "4:33PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672048694",
+            "msg": "hmmmm",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672064456",
+            "msg": "y",
+            "time": "4:34PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672345794",
+            "msg": "and what is going on",
+            "time": "4:39PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672397857",
+            "msg": "it is wied of you o cha me up now ",
+            "time": "4:39PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672505362",
+            "msg": "i can't find my chats",
+            "time": "4:41PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679672519553",
+            "msg": "but i am seeing al mine",
+            "time": "4:41PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672527539",
+            "msg": "*all",
+            "time": "4:42PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672646111",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "4:44PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679672759935",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "4:45PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679673206491",
+            "msg": "i guess it is slowing down",
+            "time": "4:53PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679673759497",
+            "msg": "what fool",
+            "time": "5:02PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679674431086",
+            "msg": "house",
+            "time": "5:13PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679674441497",
+            "msg": "good",
+            "time": "5:13PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679676395548",
+            "msg": "i hope it works now",
+            "time": "5:46PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679677158338",
+            "msg": "hmmm",
+            "time": "5:59PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677259543",
+            "msg": "i seems you have no inpact",
+            "time": "6:00PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677273597",
+            "msg": "but mine is perfect",
+            "time": "6:01PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677678071",
+            "msg": "hey, no replies ni",
+            "time": "6:03PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679677715597",
+            "msg": "kick",
+            "time": "6:08PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679678357629",
+            "msg": "Hi",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679678374846",
+            "msg": "hmmm",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679678384778",
+            "msg": "i an send messages now",
+            "time": "6:19PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679678472458",
+            "msg": "Fectching is hard",
+            "time": "6:21PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679680195738",
+            "msg": "wetin now",
+            "time": "6:49PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679680307600",
+            "msg": "how do i sove errors",
+            "time": "6:51PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679680319790",
+            "msg": "did it take longer",
+            "time": "6:51PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679681834039",
+            "msg": "hi",
+            "time": "7:17PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679681930049",
+            "msg": "i am in controllllll",
+            "time": "7:18PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679681936089",
+            "msg": "hahahahahaahahaha",
+            "time": "7:18PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679682698764",
+            "msg": "it seems he is not online",
+            "time": "7:31PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679689853811",
+            "msg": "ruber duck",
+            "time": "9:30PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679690091330",
+            "msg": "what fool",
+            "time": "9:34PM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679702397019",
+            "msg": "good",
+            "time": "0:59AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1679769741891",
+            "msg": "Enimines",
+            "time": "7:42PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679773093451",
+            "msg": "hi",
+            "time": "8:37PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1679773102448",
+            "msg": "hi  4:33PM hmmmm  4:34PM y  4:34PM and what is going on  4:39PM it is wied of you o cha me up now  4:39PM i can't find my chats  4:41PM but i am seeing al mine  4:41PM *all  4:42PM",
+            "time": "8:37PM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1680256430733",
+            "msg": "hi",
+            "time": "10:53AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1680256436112",
+            "msg": "hello",
+            "time": "10:53AM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1680256442284",
+            "msg": "do you  see this",
+            "time": "10:54AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1680256453132",
+            "msg": "i am not updated",
+            "time": "10:54AM",
+            "sender": {
+              "id": 1679599786100
+            }
+          },
+          {
+            "id": "1680256565514",
+            "msg": "hmm",
+            "time": "10:56AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1680256570982",
+            "msg": "goof",
+            "time": "10:56AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1692672037876",
+            "msg": "hvhkchk",
+            "time": "3:40AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1692672199429",
+            "msg": "john",
+            "time": "3:43AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          },
+          {
+            "id": "1692672301945",
+            "msg": "kill",
+            "time": "3:45AM",
+            "sender": {
+              "id": 1678954736886
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

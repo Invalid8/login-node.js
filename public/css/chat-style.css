@@ -1,0 +1,147 @@
+.navbar {
+	padding: 5px 20px;
+	border-bottom: none;
+	z-index: 100;
+}
+
+.navbar h1 {
+	visibility: hidden;
+}
+
+.navbar a {
+	color: var(--plain-white);
+}
+
+.navbar button {
+	cursor: pointer;
+}
+
+.navbar a:hover {
+	color: var(--main-color);
+}
+
+body {
+	background-color: var(--text-color);
+	width: 100%;
+}
+
+.chat-box {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(#5e35f17e, white);
+	color: white;
+	padding: 2rem;
+}
+
+.msg-box {
+	height: calc(100vh - 8rem);
+}
+
+.msg-box h4 {
+	font-size: 2em;
+	border-bottom: 3px solid #fcfafa;
+	padding-bottom: 0.25rem;
+}
+
+#messages {
+	height: calc(100% - 2em);
+	overflow-y: scroll;
+	margin-top: 1rem;
+	scrollbar-width: 0px;
+}
+
+#messages::-webkit-scrollbar {
+	width: 0px;
+}
+
+#messages .msg {
+	margin: 0.5rem 0;
+}
+
+#messages .msg.user-msg {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+#messages .msg h5 {
+	padding: 0.5em 0;
+	padding-left: 1em;
+	color: #fcfafa;
+	font-size: 1rem;
+}
+
+/* #messages .user-msg h5 {
+    width: 10rem;
+} */
+
+#messages .user-msg .m-s {
+	background-color: #5e35f1;
+	color: #fcfafa;
+}
+
+#messages .m-s {
+	position: initial;
+	background-color: #fcfafa;
+	max-width: 18rem;
+	width: fit-content;
+	height: fit-content;
+	padding: calc(0.5% + 0.5rem);
+	border-radius: calc(1% + 0.8rem);
+	font-weight: bold;
+	/* line-height: 1.55rem; */
+	/* white-space: pre-line; */
+}
+
+#message .m-s span {
+	white-space: pre-line;
+}
+
+.msg .m-s {
+	color: var(--text-color);
+}
+
+.msg .m-s h6 {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	font-size: 0.7em;
+}
+
+input {
+	width: 100%;
+	height: 3rem;
+	padding: 1rem;
+	color: var(--text-color);
+	font-size: 1.25rem;
+	border: 1px solid #fcfafa;
+	outline: 2px solid var(--text-color);
+	display: block;
+}
+
+input::placeholder {
+	color: #3333339a;
+}
+
+.err li {
+	color: red;
+	text-transform: capitalize;
+	font-size: 1rem;
+	margin: 0 0em;
+	/* text-align: center; */
+}
+
+#cForm {
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+	translate: -50% 0;
+	width: 100%;
+	max-width: 500px;
+}
+/* bounce 0.5s cubic-bensiu(0.19, 0.57, 0.3,98) infinte alternate */

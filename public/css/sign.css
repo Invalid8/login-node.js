@@ -1,0 +1,123 @@
+/* body {
+    background-color: red;
+    background: repeating-radial-gradient(circle at 0 0, #eee, #ccc 50px);
+    background: -webkit-repeating-radial-gradient(
+        circle at 0 0,
+        #eee,
+        #ccc 50px
+    );
+    background: -webkit-repeating-linear-gradient(
+        -45deg,
+        #fff 0px,
+        #fff 100%,
+        #d4a60d 100%,
+        #d4a60d 100%
+    );
+} */
+
+.container {
+	width: 320px;
+	color: #d4a60d;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	transform: translate(-50%, -50%);
+	padding: 70px 30px 30px 30px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.errorMsg {
+	color: #ccc1c1;
+	text-align: center;
+}
+
+input:autofill,
+input:valid {
+	background-color: transparent !important;
+	outline: 2px solid green;
+}
+
+input:-webkit-autofill {
+	background-color: transparent !important;
+	border: none;
+}
+
+.container img {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	position: absolute;
+	top: -60px;
+	left: calc(40% - 30px);
+}
+
+.container h1 {
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.container label {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.container input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.container input {
+	border: none;
+	border-bottom: 2px solid #d4a60d;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 0.2em;
+	color: #000;
+}
+
+.container input:autofill {
+	background-color: transparent;
+}
+
+.container button[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	width: fit-content;
+	padding: 0 2rem;
+	background-color: #d4a60d;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 18px;
+	transition: all 0.2s;
+	display: block;
+	margin: 1em auto;
+}
+
+form:focus {
+	outline: none;
+	background-color: none;
+}
+
+.container button[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #eccc16e1;
+	box-shadow: 0 0 10px #eccc16e1;
+}
+
+.container form a {
+	text-align: center;
+	font-size: 1em;
+	line-height: 25px;
+	color: #d4a60d;
+	text-transform: capitalize;
+}
+
+.container a:hover {
+	color: #313030;
+}
